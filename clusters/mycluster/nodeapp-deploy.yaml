@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: eks-example
-        image: sryangkorea/nodeapp-git:1.0.0 
+        image: sryangkorea/nodeapp-git:1.0.1 
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
